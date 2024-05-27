@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- airbnb starting -->
+    <div class="main_content">
+        <!-- header section starting  -->
+        <header>
+            <div class="header_section">
+                <!-- navigation_bar starrting  -->
+                <nav>
+                    <div class="navigation_bar">
+                        <div class="airbnb_logo">
+                            <img src="./assets/images/Nav/SVG/Airbnb_logo (1).svg" alt="airbnb_logo">
+                        </div>
+                        <!-- airbnb logo for 1024 view  -->
+                        <div class="airbnb_logo_lap">
+                            <img src="./assets/images/Nav/SVG/airbnb lob _lap.svg" alt="airbnb_logo">
+                        </div>
+                        <div class="navigation_item">
+                            <ul class="navbar">
+                                <li class="nav-item active"><a href="#" class="nav-link">Stays</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Experiences</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Online Experiences</a></li>
+                            </ul>
+                        </div>
+                        <div class="account_navigation">
+                            <button><a href="#">Airbnb your home</a></button>
+                            <button><a href="#"><img src="./assets/images/Nav/SVG/globe.svg"
+                                        alt="globe,svg"></a></button>
+                            <button>
+                                <div class="acc">
+                                    <img src="./assets/images/Nav/SVG/bars.svg" alt="option">
+                                    <img src="./assets/images/Nav/SVG/A_logo.svg" alt="account_logo">
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- navigtion tab for 768 view starting -->
+                    <div class="navigtion_bar_tab">
+                        <ul class="navbar">
+                            <li class="nav-item active"><a href="#" class="nav-link">Stays</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Experiences</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Online Experiences</a></li>
+                        </ul>
+                    </div>
+                    <!-- navigation tab for 768 view ending  -->
+                </nav>
+                <!-- navigation_bar ending  -->
+                <!-- search_bar for mobile view starting  -->
+                <section>
+                    <div class="searchbar">
+                        <div class="search">
+                            <form action="#">
+                                <button type="submit"><img src="./assets/images/Nav/SVG/searh.svg"
+                                        alt="search_icon"></button>
+                                <div class="input">
+                                    <label for="search_bar">Anywhere</label>
+                                    <input type="text" name="search_bar" id="seach" placeholder="Anytime . Any guests">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="filter_mobile">
+                            <img src="./assets/images/Slider/svg/filter.svg" alt="">
+                        </div>
+                    </div>
+                </section>
+                <!-- search_bar for 390 view ending  -->
+                <!-- search bar starting for normal view -->
+                <section>
+                    <div class="search_container">
+                        <div class="search_panel">
+                            <form action="get">
+                                <div class="row">
+                                    <div class="where position-relative col-lg-4 col-md-4">
+                                        <label for="where">Where</label>
+                                        <input type="text" placeholder="Search destinations">
+                                        <div class="where_hr"></div>
+                                    </div>
+
+                                    <div class="checkin position-relative col-lg-2 col-md-2">
+                                        <label for="checkin">Check in</label>
+                                        <input type="datetime" placeholder="Add dates">
+                                        <div class="in_hr"></div>
+                                    </div>
+                                    <div class="checkout position-relative col-lg-2 col-md-2">
+                                        <label for="checkout">Check out</label>
+                                        <input type="datetime" placeholder="Add dates">
+                                        <div class="out_hr"></div>
+                                    </div>
+                                    <div class="guests col-lg-2 col-md-2">
+                                        <label for="guests">Who</label>
+                                        <input type="text" placeholder="Add guets">
+                                    </div>
+                                    <div class="search_icon col-lg-2 col-md-2 position-relative">
+                                        <button><img src="./assets/images/Nav/SVG/Button.svg" alt=""></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                <!-- search_bar for normal view ending  -->
+            </div>
+        </header>
+        <!-- header section ending -->
+
+
+        <!-- slider starting  -->
+        <section>
+            <div class="container-fluid">
+                <div class="row slider_content">
+                    <div class="col-md-10">
+                        <div class="slic">
+                            <div class="slider responsive">
+                                <div class="slider_container" >
+                                    <img src="./assets/images/Slider/svg/caves.svg" alt="slider_img">
+                                    <p id="cave">Caves</p>
+                                </div>
+                                <div class="slider_container">
+                                    <img src="./assets/images/Slider/svg/cabin.svg" alt="slider_img">
+                                    <p>Cabins</p>
+                                </div>
+                                <div class="slider_container">
+                                    <img src="./assets/images/Slider/svg/amazing_view.svg" alt="slider_img">
+                                    <p>Amazing views</p>
+                                </div>
+                                <div class="slider_container">
+                                    <img src="./assets/images/Slider/svg/top_cities.svg" alt="slider_img">
+                                    <p>Top cities</p>
+                                </div>
+                                <div class="slider_container">
+                                    <img src="./assets/images/Slider/svg/luxe.svg" alt="slider_img">
+                                    <p>Luxe</p>
+                                </div>
+                                <div class="slider_container">
+                                    <img src="./assets/images/Slider/svg/container.svg" alt="slider_img">
+                                    <p>Containers</p>
+                                </div>
+                                <div class="slider_container">
+                                    <img src="./assets/images/Slider/svg/trending.svg" alt="slider_img">
+                                    <p>Trending</p>
+                                </div>
+                                <div class="slider_container">
+                                    <img src="./assets/images/Slider/svg/new.svg" alt="slider_img">
+                                    <p>New</p>
+                                </div>
+                                <div class="slider_container">
+                                    <img src="./assets/images/Slider/svg/historical_homes.svg" alt="slider_img">
+                                    <p>Historical Homes</p>
+                                </div>
+                                <div class="slider_container">
+                                    <img src="./assets/images/Slider/svg/earth_homes.svg" alt="slider_img">
+                                    <p>Earth homes</p>
+                                </div>
+                                <div class="slider_container">
+                                    <img src="./assets/images/Slider/svg/boats.svg" alt="slider_img">
+                                    <p>Boats</p>
+                                </div>
+                                <div class="slider_container">
+                                    <img src="./assets/images/Slider/svg/caves.svg" alt="slider_img">
+                                    <p>Caves</p>
+                                </div>
+                                <div class="slider_container">
+                                    <img src="./assets/images/Slider/svg/cabin.svg" alt="slider_img">
+                                    <p>Cabins</p>
+                                </div>
+                                <div class="slider_container">
+                                    <img src="./assets/images/Slider/svg/amazing_view.svg" alt="slider_img">
+                                    <p>Amazing views</p>
+                                </div>
+                                <div class="slider_container">
+                                    <img src="./assets/images/Slider/svg/top_cities.svg" alt="slider_img">
+                                    <p>Top cities</p>
+                                </div>
+                                <div class="slider_container">
+                                    <img src="./assets/images/Slider/svg/luxe.svg" alt="slider_img">
+                                    <p>Luxe</p>
+                                </div>
+                                <div class="slider_container">
+                                    <img src="./assets/images/Slider/svg/container.svg" alt="slider_img">
+                                    <p>Containers</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-2">
+                        <div class="filtersection">
+                            <button class="filter">
+                                <img src="./assets/images/Slider/svg/filter.svg" alt="filter img">
+                                <p>Filter</p>
+                            </button>
+                            <button class="switch">
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch"
+                                        id="flexSwitchCheckDefault">
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- slider ending  -->
+
+
+        <!-- card content starting  -->
+        <section>
+            <div class="card_content">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <div class="carousel slide" id="content_1">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#content_1" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#content_1" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#content_1" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#content_1" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#content_1" data-bs-slide-to="4"
+                                        aria-label="Slide 5"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./assets/images/Content/content_img1.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img2.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img3.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img4.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img5.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="favourite">
+                                <p>Guest favourite</p>
+                                <img src="./assets/images/Content/svg/heart.svg" alt="" class="heart">
+                            </div>
+                            <div class="card-body">
+                                <div class="left">
+                                    <h5>Bourré, France</h5>
+                                    <p>8,015 km away</p>
+                                    <p>Apr. 19 – 24</p>
+                                    <h4>$154 CAD </h4>
+                                    <span>night</span>
+                                </div>
+                                <div class="right">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p> 4.84</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <div class="carousel slide" id="content_2">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#content_2" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#content_2" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#content_2" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#content_2" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#content_2" data-bs-slide-to="4"
+                                        aria-label="Slide 5"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./assets/images/Content/content_img2.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img3.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img4.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img5.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img6.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="favourite">
+                                <p>Guest favourite</p>
+                                <img src="./assets/images/Content/svg/heart.svg" alt="" class="heart">
+                            </div>
+                            <div class="card-body">
+                                <div class="left">
+                                    <h5>Noyers-sur-Cher, France</h5>
+                                    <p>8,028 km away</p>
+                                    <p>May 19 – 24</p>
+                                    <h4>$320 CAD </h4>
+                                    <span>night</span>
+                                </div>
+                                <div class="right">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p> 4.82</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <div class="carousel slide" id="content_3">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#content_3" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#content_3" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#content_3" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#content_3" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#content_3" data-bs-slide-to="4"
+                                        aria-label="Slide 5"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./assets/images/Content/content_img3.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img4.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img5.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img6.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img7.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="favourite">
+                                <p>Guest favourite</p>
+                                <img src="./assets/images/Content/svg/heart.svg" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="left">
+                                    <h5>Cortez, Colorado, US</h5>
+                                    <p>1,757 km away</p>
+                                    <p>Jul. 7 – 12</p>
+                                    <h4>$572 CAD </h4>
+                                    <span>night</span>
+                                </div>
+                                <div class="right">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p> 4.98</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6" id="extra">
+                        <div class="card">
+                            <div class="carousel slide" id="content_4">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#content_4" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#content_4" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#content_4" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#content_4" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#content_4" data-bs-slide-to="4"
+                                        aria-label="Slide 5"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./assets/images/Content/content_img4.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img5.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img6.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img7.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img8.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="favourite">
+                                <p>Guest favourite</p>
+                                <img src="./assets/images/Content/svg/heart.svg" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="left">
+                                    <h5>Los Balcones, Spain</h5>
+                                    <p>8,725 km away</p>
+                                    <p>Apr. 18 – 23</p>
+                                    <h4>$304 CAD </h4>
+                                    <span>night</span>
+                                </div>
+                                <div class="right">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p> 5.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <div class="carousel slide" id="content_5">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#content_5" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#content_5" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#content_5" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#content_5" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#content_5" data-bs-slide-to="4"
+                                        aria-label="Slide 5"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./assets/images/Content/content_img5.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img6.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img7.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img8.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img9.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="favourite">
+                                <p class="opacity-0">Guest favourite</p>
+                                <img src="./assets/images/Content/svg/heart.svg" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="left">
+                                    <h5>Hanksville, Utah, US</h5>
+                                    <p>1,562 km away</p>
+                                    <p>May 5 – 10</p>
+                                    <h4>$685 CAD </h4>
+                                    <span>night</span>
+                                </div>
+                                <div class="right">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>4.84</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <div class="carousel slide" id="content_6">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#content_6" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#content_6" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#content_6" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#content_6" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#content_6" data-bs-slide-to="4"
+                                        aria-label="Slide 5"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./assets/images/Content/content_img6.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img7.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img8.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img9.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img10.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="favourite">
+                                <p class="opacity-0">Guest favourite</p>
+                                <img src="./assets/images/Content/svg/heart.svg" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="left">
+                                    <h5>Brissac-Loire-Aubance, France</h5>
+                                    <p>7,945 km awayx</p>
+                                    <p>May 11 – 16</p>
+                                    <h4>$511 CAD </h4>
+                                    <span>night</span>
+                                </div>
+                                <div class="right">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>4.96</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <div class="carousel slide" id="content_7">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#content_7" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#content_7" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#content_7" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#content_7" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#content_7" data-bs-slide-to="4"
+                                        aria-label="Slide 5"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./assets/images/Content/content_img7.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img8.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img9.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img10.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img11.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="favourite">
+                                <p class="">Guest favourite</p>
+                                <img src="./assets/images/Content/svg/heart.svg" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="left">
+                                    <h5>Roswell, New Mexico, US</h5>
+                                    <p>2,352 km away</p>
+                                    <p>May 2 – 7</p>
+                                    <h4>$872 CAD </h4>
+                                    <span>night</span>
+                                </div>
+                                <div class="right">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>4.99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6  " id="extra">
+                        <div class="card">
+                            <div class="carousel slide" id="content_8">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#content_8" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#content_8" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#content_8" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#content_8" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#content_8" data-bs-slide-to="4"
+                                        aria-label="Slide 5"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./assets/images/Content/content_img8.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img9.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img10.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img11.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img12.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="favourite">
+                                <p class="">Guest favourite</p>
+                                <img src="./assets/images/Content/svg/heart.svg" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="left">
+                                    <h5>Broadway, Virginia, US</h5>
+                                    <p>3,672 km away</p>
+                                    <p>Nov. 30 – Dec. 5</p>
+                                    <h4>$276 CAD </h4>
+                                    <span>night</span>
+                                </div>
+                                <div class="right">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>4.99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <div class="carousel slide" id="content_9">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#content_9" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#content_9" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#content_9" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#content_9" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#content_9" data-bs-slide-to="4"
+                                        aria-label="Slide 5"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./assets/images/Content/content_img9.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img10.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img11.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img12.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img13.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="favourite">
+                                <p class="">Guest favourite</p>
+                                <img src="./assets/images/Content/svg/heart.svg" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="left">
+                                    <h5>Jaunay-Marigny, France</h5>
+                                    <p>8,033 km away</p>
+                                    <p>Aug. 26 – 31</p>
+                                    <h4>$311 CAD </h4>
+                                    <span>night</span>
+                                </div>
+                                <div class="right">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>4.98</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <div class="carousel slide" id="content_10">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#content_10" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#content_10" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#content_10" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#content_10" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#content_10" data-bs-slide-to="4"
+                                        aria-label="Slide 5"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./assets/images/Content/content_img10.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img11.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img12.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img13.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img14.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="favourite">
+                                <p class="opacity-0">Guest favourite</p>
+                                <img src="./assets/images/Content/svg/heart.svg" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="left">
+                                    <h5>Villarrubia, Spain</h5>
+                                    <p>8,585 km away</p>
+                                    <p>May 2 – 7</p>
+                                    <h4>$343 CAD </h4>
+                                    <span>night</span>
+                                </div>
+                                <div class="right">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>4.9</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <div class="carousel slide" id="content_11">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#content_11" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#content_11" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#content_11" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#content_11" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#content_11" data-bs-slide-to="4"
+                                        aria-label="Slide 5"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./assets/images/Content/content_img11.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img12.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img13.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img14.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img15.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="favourite">
+                                <p class="">Guest favourite</p>
+                                <img src="./assets/images/Content/svg/heart.svg" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="left">
+                                    <h5>Puntallana, Spain</h5>
+                                    <p>8,646 km away</p>
+                                    <p>Jul. 18 – 25</p>
+                                    <h4>$196 CAD </h4>
+                                    <span>night</span>
+                                </div>
+                                <div class="right">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>5.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6  " id="extra">
+                        <div class="card">
+                            <div class="carousel slide" id="content_12">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#content_12" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#content_12" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#content_12" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#content_12" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#content_12" data-bs-slide-to="4"
+                                        aria-label="Slide 5"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./assets/images/Content/content_img12.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img13.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img14.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img15.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img16.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="favourite">
+                                <p class="">Guest favourite</p>
+                                <img src="./assets/images/Content/svg/heart.svg" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="left">
+                                    <h5>Río de Baza, Spain</h5>
+                                    <p>8,730 km away</p>
+                                    <p>8,730 km away</p>
+                                    <h4>$256 CAD </h4>
+                                    <span>night</span>
+                                </div>
+                                <div class="right">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>5.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <div class="carousel slide" id="content_13">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#content_13" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#content_13" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#content_13" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#content_13" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#content_13" data-bs-slide-to="4"
+                                        aria-label="Slide 5"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./assets/images/Content/content_img13.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img14.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img15.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img16.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img17 (1).png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="favourite">
+                                <p class="opacity-0">Guest favourite</p>
+                                <img src="./assets/images/Content/svg/heart.svg" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="left">
+                                    <h5>Moab, Utah, US</h5>
+                                    <p>1,604 km away</p>
+                                    <p>May 3 – 8</p>
+                                    <h4>$1501 CAD </h4>
+                                    <span>night</span>
+                                </div>
+                                <div class="right opacity-0">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>4.84</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <div class="carousel slide" id="content_14">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#content_14" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#content_14" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#content_14" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#content_14" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#content_14" data-bs-slide-to="4"
+                                        aria-label="Slide 5"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./assets/images/Content/content_img14.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img15.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img16.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img17 (1).png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img18.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="favourite">
+                                <p class="">Guest favourite</p>
+                                <img src="./assets/images/Content/svg/heart.svg" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="left">
+                                    <h5>Teruel, Spain</h5>
+                                    <p>8,572 km away</p>
+                                    <p>Nov. 21 – 26</p>
+                                    <h4>$545 CAD </h4>
+                                    <span>night</span>
+                                </div>
+                                <div class="right">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>5.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                            <div class="carousel slide" id="content_15">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#content_15" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#content_15" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#content_15" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#content_15" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#content_15" data-bs-slide-to="4"
+                                        aria-label="Slide 5"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./assets/images/Content/content_img15.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img16.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img17 (1).png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img18.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img1.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="favourite">
+                                <p class="opacity-0">Guest favourite</p>
+                                <img src="./assets/images/Content/svg/heart.svg" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="left">
+                                    <h5>Beynac-et-Cazenac, France</h5>
+                                    <p>Beynac-et-Cazenac, France</p>
+                                    <p>Apr. 17 – 22</p>
+                                    <h4>$155 CAD </h4>
+                                    <span>night</span>
+                                </div>
+                                <div class="right">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>5.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6  " id="extra">
+                        <div class="card">
+                            <div class="carousel slide" id="content_16">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#content_16" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#content_16" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#content_16" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#content_16" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#content_16" data-bs-slide-to="4"
+                                        aria-label="Slide 5"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./assets/images/Content/content_img16.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img17 (1).png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img18.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img1.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/images/Content/content_img2.png" alt="content_img"
+                                            class="d-block w-100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="favourite">
+                                <p class="">Guest favourite</p>
+                                <img src="./assets/images/Content/svg/heart.svg" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="left">
+                                    <h5>Noizay, France</h5>
+                                    <p>7,994 km away</p>
+                                    <p>Jun. 29 – Jul. 4</p>
+                                    <h4>$158 CAD </h4>
+                                    <span>night</span>
+                                </div>
+                                <div class="right">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>5.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- card content ending -->
+
+
+        <!-- showmap starting  -->
+        <section>
+            <div class="showmap_container">
+                <button type="button" class="d-flex gap-3 align-items-center">
+                    <span>Show map</span><img src="./assets/images/Content/Vector (1).svg" alt="map">
+                </button>
+            </div>
+        </section>
+        <!-- showmap ending  -->
+
+
+        <!-- navigation bar for mobile starting  -->
+        <section>
+            <div class="navigation_mobile">
+                <div class="explore">
+                    <img src="./assets/images/NAv_mob/explore.svg" alt="search">
+                    <p>Explore</p>
+                  </div>
+                  <div class="wish">
+                    <img src="./assets/images/NAv_mob/wishlist.svg" alt="Wishlist">
+                    <p>Wishlists</p>
+                  </div>
+                  <div class="trip">
+                    <img src="./assets/images/NAv_mob/trips.svg" alt="tripimg">
+                    <p>Trips</p>
+                  </div>
+                  <div class="inbox">
+                    <img src="./assets/images/NAv_mob/inbox.svg" alt="inboximg">
+                    <p>Inbox</p>
+                  </div>
+                  <div class="profile">
+                    <img src="./assets/images/NAv_mob/profile.svg" alt="profileimg">
+                    <p>Profile</p>
+                  </div>
+            </div>
+        </section>
+        <!-- navigation bar for mobile ending  -->
+
+
+        <!-- footer starting  -->
+        <footer>
+            <!-- normal footer section starting  -->
+            <div class="footer_section">
+                <div class="row footer_section_container">
+                    <div class="col-lg-6 left_footer col-md-6">
+                        <div class="left_footer_section mt-3">
+                            <p>&copy; 2024 Airbnb, Inc</p>
+                            <span>Privacy</span>
+                            <span>Terms</span>
+                            <span>Sitemap</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 right_footer">
+                        <div class="right_footer_section">
+                            <div class="d-flex align-items-center justify-content-center gap-2 mt-3">
+                                <p><a href="#"><img src="./assets/images/Nav/SVG/globe.svg" alt=""> English(CA)</a></p>
+                                <p><a href="#"></a></p>
+                                <p><a href="#">$ CAD</a></p>
+                            </div>
+                            <div class="dropdown">
+                              <p data-bs-toggle="dropdown" id="support">Support & resource<i class="fa-solid fa-chevron-down" aria-expanded="false"></i></p>
+                              
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Help center</a></li>
+                                <li><a class="dropdown-item" href="#">Air cover</a></li>
+                                <li><a class="dropdown-item" href="#">Air discrimination</a></li>
+                              </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- normal footer section ending  -->
+            <!-- mobile footer section starting  -->
+            <div class="footer_mobile">
+                <div class="support_footer_mob">
+                    <h3>Support</h3>
+                    <p>Help center</p>
+                    <p>Get help with a safety issue</p>
+                    <p>AirCover</p>
+                    <p>Anti-discrimination</p>
+                    <p>Disability support</p>
+                    <p>Cancellation options</p>
+                    <p>Report neighbourhood concern</p>
+                  </div>
+                  <div class="hosting_footer_mob">
+                    <h3>Hosting</h3>
+                    <p>
+                      Airbnb your home
+                    </p>
+                    <p>
+                      AirCover for Hosts
+                    </p>
+                    <p>
+                      Hosting resources
+                    </p>
+                    <p>
+                      Hosting resources
+                    </p>
+                    <p>
+                      Community forum
+                    </p>
+                    <p>
+                      Hosting responsibly
+                    </p>
+                    <p>
+                      Join a free hosting class
+                    </p>  
+                  </div>
+                  <div class="airbnb_footer_mob">
+                    <h3>
+                      Airbnb
+                    </h3>
+                    <p>
+                      Newsroom
+                    </p>
+                    <p>
+                      New features
+                    </p>
+                    <p>
+                      Careers
+                    </p>
+                    <p>
+                      Investors
+                    </p>
+                    <p>
+                      Gift cards
+                    </p>
+                    <p>
+                      Airbnb.org emergency stays</p>
+                    </p>
+                  </div>
+                  <div class="footer_content_mob">
+                    <div class="language_footer">
+                      <a href="#"><img src="./assets/images/Nav/SVG/globe.svg" alt=""></a>           
+                      <a href="#"><p>English(CA)</p></a>
+                      <a href="#" id="dol">
+                        <p>$ CAD</p>
+                      </a>
+                    </div>
+                    <div class="copyright_footer_mob">
+                      <p>&copy; 2024 Airbnb,Inc.</p>
+                      <div class="privacy_cont">
+                        <p>Privacy</p>
+                        <p class="dot">Terms</p>
+                        <p class="dot">Sitemap</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <!-- mobile footer section ending  -->
+        </footer>
+        <!-- footer ending   -->
+    </div>
+    <!-- airbnb ending  -->
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
