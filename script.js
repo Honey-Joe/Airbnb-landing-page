@@ -40,3 +40,5 @@ $('.responsive').slick({
       }
     ]
   });
+
+  
