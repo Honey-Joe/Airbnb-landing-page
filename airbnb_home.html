@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- header starting  -->
+    <header>
+        <!-- navigation starting  -->
+        <nav>
+            <div class="navigation-airhome">
+                <div class="nav-airhome-brand">
+                    <a href="./index.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-label="Airbnb homepage"
+                            role="img" focusable="false"
+                            style="display: block; height: 32px; width: 30px; fill: #FF385C;">
+                            <path
+                                d="M16 1c2 0 3.46.96 4.75 3.27l.53 1.02a424.58 424.58 0 0 1 7.1 14.84l.15.35c.67 1.6.9 2.48.96 3.4v.41l.01.23c0 4.06-2.88 6.48-6.36 6.48-2.22 0-4.55-1.26-6.7-3.39l-.26-.26-.17-.17h-.02l-.17.18c-2.05 2.1-4.27 3.42-6.42 3.62l-.28.01-.26.01c-3.48 0-6.36-2.42-6.36-6.48v-.47c.03-.93.23-1.77.83-3.24l.22-.53c.97-2.3 6.08-12.98 7.7-16.03C12.55 1.96 14 1 16 1zm0 2c-1.24 0-2.05.54-2.99 2.21l-.52 1a422.57 422.57 0 0 0-7.03 14.7l-.35.84a6.86 6.86 0 0 0-.6 2.24l-.01.33v.2C4.5 27.4 6.41 29 8.86 29c1.77 0 3.87-1.24 5.83-3.35-2.3-2.94-3.86-6.45-3.86-8.91 0-2.92 1.94-5.39 5.18-5.42 3.22.03 5.16 2.5 5.16 5.42 0 2.45-1.56 5.96-3.86 8.9 1.97 2.13 4.06 3.36 5.83 3.36 2.45 0 4.36-1.6 4.36-4.48v-.4a7.07 7.07 0 0 0-.72-2.63l-.25-.6C25.47 18.41 20.54 8.12 19 5.23 18.05 3.53 17.24 3 16 3zm.01 10.32c-2.01.02-3.18 1.51-3.18 3.42 0 1.8 1.18 4.58 2.96 7.04l.2.29.18-.24c1.73-2.38 2.9-5.06 3-6.87v-.22c0-1.9-1.17-3.4-3.16-3.42z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="navigation-butt-home">
+                    <p>Ready to Airbnb it?</p>
+                    <button><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.0639 7.63177V11.1393H7.51713V13.028H11.0639V16.5356H13.0048V13.028H16.5516V11.1393H13.0048V7.63177H11.0639Z"
+                                fill="white"></path>
+                            <path
+                                d="M13.734 0.684168C13.2611 0.240904 12.6404 0 12 0C11.3596 0 10.7389 0.240904 10.266 0.674532L0 10.7251L1.36946 12.0549L2.10837 11.3321V19.9661C2.10837 20.4094 2.29557 20.8334 2.61084 21.1418C2.92611 21.4501 3.35961 21.6332 3.81281 21.6332H20.1773C20.6305 21.6332 21.064 21.4598 21.3892 21.1418C21.7143 20.8238 21.8916 20.3998 21.8916 19.9565V11.3032L22.6305 12.0259L24 10.7251L13.734 0.684168ZM4.03941 19.7542V9.4049L11.6355 1.97542C11.6847 1.92723 11.734 1.88869 11.803 1.86942C11.8621 1.84051 11.931 1.83087 12 1.83087H12.0099C12.0788 1.83087 12.1478 1.84051 12.2069 1.86942C12.266 1.89833 12.3251 1.92723 12.3744 1.97542L19.9704 9.4049V19.7542H4.03941Z"
+                                fill="white"></path>
+                        </svg>
+                        Airbnb Setup
+                    </button>
+                </div>
+
+            </div>
+        </nav>
+        <!-- navigation ending  -->
+    </header>
+    <!-- header ending  -->
+    <!-- banner section starting  -->
+    <section>
+        <div class="banner-content-home row gap-2">
+            <div class="banner-air-range col-xl-6 col-lg-12 col-md-12 col-11">
+                <div class="air-home-banner">
+                    <h2>Airbnb it</h2>
+                    <p class="earn-home">You could earn</p>
+                </div>
+                <p class="price-home">₹<span class="rangecounter" data-number="25662"> 25662</span></p>
+
+                <p class="nights-home"><span class="range-value">7 </span><span> night</span> at an estimated
+                    ₹3,666 a night</p>
+
+                <input type="range" class="input-range" min="1" max="30" step="1" id="customRange3" value="7">
+                <p class="earnings-home"><a href="#">Learn how we estimate your earnings</a></p>
+
+                <div class="search-home">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                        focusable="false"
+                        style="display: block; fill: none; height: 16px; width: 16px; stroke: rgb(255, 56, 92); stroke-width: 4; overflow: visible;">
+                        <path fill="none" d="M13 24a11 11 0 1 0 0-22 11 11 0 0 0 0 22zm8-3 9 9"></path>
+                    </svg>
+
+                    <div class="input-search-home">
+                        <p>Chennai</p>
+                        <input type="text" placeholder="Entire place . 2 bedrooms">
+                    </div>
+                </div>
+            </div>
+            <div class="banner-map-home col-xl-5 col-lg-12 col-md-12 col-12">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15719.92077024979!2d78.1309664!3d9.9356058!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06df970b004121%3A0x19575d843fba74f1!2sHitasoft%20Technology%20Solutions%20P.ltd%20%7C%20Web%20%26%20Mobile%20App%20Development%20Company%20%7C%20IOS%20%26%20Android%20Course%20%7C%20Digital%20Marketing%20Course!5e0!3m2!1sen!2sin!4v1717144180600!5m2!1sen!2sin"
+                    width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- banner ending  -->
+    <!-- content image starting  -->
+    <section>
+        <div class="content-image-home">
+            <h2>Airbnb it easily with Airbnb Setup</h2>
+            <img src="https://a0.muscache.com/im/pictures/65214d06-ffb4-4b70-93c0-01d368e76649.jpg?im_w=2560&im_q=highq"
+                alt="content image" class="cont-image">
+            <img src="https://a0.muscache.com/im/pictures/ad406f6f-2fae-404f-99c1-5521a4c1e563.jpg?im_w=720&im_q=highq"
+                alt="" class="mob-image">
+            <div class="row content-grid-home">
+                <div class="col-xl-4 content-grid-home-cont">
+                    <h6>One-to-one guidance from a Superhost</h6>
+                    <p>We’ll match you with a Superhost in your area, who’ll guide you from your first question to your
+                        first guest – by phone, video call or chat.</p>
+                </div>
+                <div class="col-xl-4 content-grid-home-cont">
+                    <h6>An experienced guest for your first booking</h6>
+                    <p>For your first booking, you can choose to welcome an experienced guest who has at least three
+                        stays and a good track record on Airbnb.</p>
+                </div>
+                <div class="col-xl-4 content-grid-home-cont">
+                    <h6>Specialised support from Airbnb
+                    </h6>
+                    <p>New Hosts get one-tap access to specially trained Community Support agents who can help with
+                        everything from account issues to billing support.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- content image ending  -->
+    <!-- aircover content starting  -->
+    <section>
+        <div class="aircover-home container mx-auto">
+            <img src="https://a0.muscache.com/im/pictures/cecbf134-6674-410f-9345-603716048771.jpg?im_w=480&im_q=highq"
+                alt="">
+            <h3>Airbnb it with top‑to‑bottom protection</h3>
+            <div class="diff-airbnb-home">
+                <div class="row1-aircover-home row">
+                    <p class="col-xl-8 air-cover col-lg-8 col-md-7 col-6">Airbnb</p>
+                    <p class="col-xl-2 col-lg-2 col-md-2 col-2">Competitors</p>
+                </div>
+                <hr>
+                <div class="row2-aircover-home row">
+                    <div class="row2-content col-xl-6 col-lg-6 col-md-6 col-6 col-6">
+                        <h5>Guest identity verification
+                        </h5>
+                    </div>
+                    <div class="row2-air col-xl-4 col-lg-4 col-md-4 col-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display:block;fill:none;height:24px;width:24px;stroke:#00A506;stroke-width:5.333333333333333;overflow:visible"
+                            aria-label="Airbnb included" role="img" focusable="false">
+                            <path fill="none" d="m4 16.5 8 8 16-16"></path>
+                        </svg>
+                    </div>
+                    <div class="row-2-comp col-xl-2 col-lg-2 col-md-2 col-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display:block;fill:none;height:24px;width:24px;stroke:#00A506;stroke-width:5.333333333333333;overflow:visible"
+                            aria-label="Airbnb included" role="img" focusable="false">
+                            <path fill="none" d="m4 16.5 8 8 16-16"></path>
+                        </svg>
+                    </div>
+                    <div class="col-xl-6 row-2-para col-lg-12 col-md-12 col-12">
+                        <p>Our comprehensive verification system checks details such as name, address, government ID and
+                            more to confirm the identity of guests who book on Airbnb. </p>
+                    </div>
+
+                </div>
+                <hr>
+                <div class="row2-aircover-home row">
+                    <div class="row2-content col-xl-6 col-lg-6 col-md-6 col-6 col-6">
+                        <h5>Reservation screening
+
+                        </h5>
+
+
+                    </div>
+                    <div class="row2-air col-xl-4 col-lg-4 col-md-4 col-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display:block;fill:none;height:24px;width:24px;stroke:#00A506;stroke-width:5.333333333333333;overflow:visible"
+                            aria-label="Airbnb included" role="img" focusable="false">
+                            <path fill="none" d="m4 16.5 8 8 16-16"></path>
+                        </svg>
+                    </div>
+                    <div class="row-2-comp col-xl-2 col-lg-2 col-md-2 col-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display:block;fill:none;height:24px;width:24px;stroke:#E12C32;stroke-width:5.333333333333333;overflow:visible"
+                            aria-label="Competitors not included" role="img" focusable="false">
+                            <path d="m6 6 20 20M26 6 6 26"></path>
+                        </svg>
+                    </div>
+                    <div class="col-xl-6 row-2-para col-lg-12 col-md-12 col-12">
+                        <p>Our proprietary technology analyses hundreds of factors in each reservation and blocks
+                            certain bookings that show a high risk for disruptive parties and property damage.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row2-aircover-home row">
+                    <div class="row2-content col-xl-6 col-lg-6 col-md-6 col-6 col-6">
+                        <h5>$3m damage protection
+
+
+                        </h5>
+
+
+
+                    </div>
+                    <div class="row2-air col-xl-4 col-lg-4 col-md-4 col-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display:block;fill:none;height:24px;width:24px;stroke:#00A506;stroke-width:5.333333333333333;overflow:visible"
+                            aria-label="Airbnb included" role="img" focusable="false">
+                            <path fill="none" d="m4 16.5 8 8 16-16"></path>
+                        </svg>
+                    </div>
+                    <div class="row-2-comp col-xl-2 col-lg-2 col-md-2 col-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display:block;fill:none;height:24px;width:24px;stroke:#E12C32;stroke-width:5.333333333333333;overflow:visible"
+                            aria-label="Competitors not included" role="img" focusable="false">
+                            <path d="m6 6 20 20M26 6 6 26"></path>
+                        </svg>
+                    </div>
+                    <div class="col-xl-6 row-2-para col-lg-12 col-md-12 col-12">
+                        <p>Airbnb reimburses you for damage caused by guests to your home and belongings and includes
+                            these specialised protections:</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row2-aircover-home row">
+                    <div class="row2-content col-xl-6 col-lg-6 col-md-6 col-6 col-6">
+                        <h6>Art & valuables
+                        </h6>
+
+                    </div>
+                    <div class="row2-air col-xl-4 col-lg-4 col-md-4 col-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display:block;fill:none;height:24px;width:24px;stroke:#00A506;stroke-width:5.333333333333333;overflow:visible"
+                            aria-label="Airbnb included" role="img" focusable="false">
+                            <path fill="none" d="m4 16.5 8 8 16-16"></path>
+                        </svg>
+                    </div>
+                    <div class="row-2-comp col-xl-2 col-lg-2 col-md-2 col-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display:block;fill:none;height:24px;width:24px;stroke:#E12C32;stroke-width:5.333333333333333;overflow:visible"
+                            aria-label="Competitors not included" role="img" focusable="false">
+                            <path d="m6 6 20 20M26 6 6 26"></path>
+                        </svg>
+                    </div>
+                </div>
+                <hr>
+                <div class="row2-aircover-home row">
+                    <div class="row2-content col-xl-6 col-lg-6 col-md-6 col-6 col-6">
+                        <h6>Auto & boat
+                        </h6>
+
+                    </div>
+                    <div class="row2-air col-xl-4 col-lg-4 col-md-4 col-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display:block;fill:none;height:24px;width:24px;stroke:#00A506;stroke-width:5.333333333333333;overflow:visible"
+                            aria-label="Airbnb included" role="img" focusable="false">
+                            <path fill="none" d="m4 16.5 8 8 16-16"></path>
+                        </svg>
+                    </div>
+                    <div class="row-2-comp col-xl-2 col-lg-2 col-md-2 col-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display:block;fill:none;height:24px;width:24px;stroke:#E12C32;stroke-width:5.333333333333333;overflow:visible"
+                            aria-label="Competitors not included" role="img" focusable="false">
+                            <path d="m6 6 20 20M26 6 6 26"></path>
+                        </svg>
+                    </div>
+                </div>
+                <hr>
+                <div class="row2-aircover-home row">
+                    <div class="row2-content col-xl-6 col-lg-6 col-md-6 col-6 col-6">
+                        <h6>Pet damage
+                        </h6>
+
+                    </div>
+                    <div class="row2-air col-xl-4 col-lg-4 col-md-4 col-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display:block;fill:none;height:24px;width:24px;stroke:#00A506;stroke-width:5.333333333333333;overflow:visible"
+                            aria-label="Airbnb included" role="img" focusable="false">
+                            <path fill="none" d="m4 16.5 8 8 16-16"></path>
+                        </svg>
+                    </div>
+                    <div class="row-2-comp col-xl-2 col-lg-2 col-md-2 col-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display:block;fill:none;height:24px;width:24px;stroke:#E12C32;stroke-width:5.333333333333333;overflow:visible"
+                            aria-label="Competitors not included" role="img" focusable="false">
+                            <path d="m6 6 20 20M26 6 6 26"></path>
+                        </svg>
+                    </div>
+                </div>
+                <hr>
+                <div class="row2-aircover-home row">
+                    <div class="row2-content col-xl-6 col-lg-6 col-md-6 col-6 col-6">
+                        <h6>Income loss
+
+                        </h6>
+
+                    </div>
+                    <div class="row2-air col-xl-4 col-lg-4 col-md-4 col-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display:block;fill:none;height:24px;width:24px;stroke:#00A506;stroke-width:5.333333333333333;overflow:visible"
+                            aria-label="Airbnb included" role="img" focusable="false">
+                            <path fill="none" d="m4 16.5 8 8 16-16"></path>
+                        </svg>
+                    </div>
+                    <div class="row-2-comp col-xl-2 col-lg-2 col-md-2 col-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display:block;fill:none;height:24px;width:24px;stroke:#E12C32;stroke-width:5.333333333333333;overflow:visible"
+                            aria-label="Competitors not included" role="img" focusable="false">
+                            <path d="m6 6 20 20M26 6 6 26"></path>
+                        </svg>
+                    </div>
+                </div>
+                <hr>
+                <div class="row2-aircover-home row">
+                    <div class="row2-content col-xl-6 col-lg-6 col-md-6 col-6 col-6">
+                        <h5>$1m USD liability insurance
+
+
+                        </h5>
+
+                    </div>
+                    <div class="row2-air col-xl-4 col-lg-4 col-md-4 col-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display:block;fill:none;height:24px;width:24px;stroke:#00A506;stroke-width:5.333333333333333;overflow:visible"
+                            aria-label="Airbnb included" role="img" focusable="false">
+                            <path fill="none" d="m4 16.5 8 8 16-16"></path>
+                        </svg>
+                    </div>
+                    <div class="row-2-comp col-xl-2 col-lg-2 col-md-2 col-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display:block;fill:none;height:24px;width:24px;stroke:#00A506;stroke-width:5.333333333333333;overflow:visible"
+                            aria-label="Competitors included" role="img" focusable="false">
+                            <path fill="none" d="m4 16.5 8 8 16-16"></path>
+                        </svg>
+                    </div>
+                    <div class="col-xl-6 row-2-para col-lg-12 col-md-12 col-12">
+                        <p>You’re protected in the rare event that a guest gets hurt or their belongings are damaged or
+                            stolen. </p>
+
+                    </div>
+                </div>
+                <hr>
+                <div class="row2-aircover-home row">
+                    <div class="row2-content col-xl-6 col-lg-6 col-md-6 col-6 col-6">
+                        <h5>24-hour safety line
+
+
+                        </h5>
+
+                    </div>
+                    <div class="row2-air col-xl-4 col-lg-4 col-md-4 col-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display:block;fill:none;height:24px;width:24px;stroke:#00A506;stroke-width:5.333333333333333;overflow:visible"
+                            aria-label="Airbnb included" role="img" focusable="false">
+                            <path fill="none" d="m4 16.5 8 8 16-16"></path>
+                        </svg>
+                    </div>
+                    <div class="row-2-comp col-xl-2 col-lg-2 col-md-2 col-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                            style="display:block;fill:none;height:24px;width:24px;stroke:#E12C32;stroke-width:5.333333333333333;overflow:visible"
+                            aria-label="Competitors not included" role="img" focusable="false">
+                            <path d="m6 6 20 20M26 6 6 26"></path>
+                        </svg>
+                    </div>
+                    <div class="col-xl-6 row-2-para col-lg-12 col-md-12 col-12">
+                        <p>If you ever feel unsafe, our app provides one-tap access to specially trained safety agents,
+                            day or night. </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="dis-home">
+                    Comparison is based on public information and free offerings by top competitors as of 22/10.
+                    <span><a href="#">Find details and exclusions here.</a></span>
+                </div>
+
+
+
+            </div>
+            <button>Learn more</button>
+        </div>
+    </section>
+    <!-- aircover ending  -->
+    <!-- footer starting  -->
+    <footer>
+        <div class="footer-main-home">
+            <div class="footer-home">
+                <div class="questions-home1">
+                    <div class="questions-home container">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-12 qus-home">
+                                <p>Your questions,</p>
+                                <span>answered</span>
+                            </div>
+                            <div class="col-xl-6 col-lg-12">
+                                <div class="questions-content">
+                                    <div class="collapse-btn " data-bs-toggle="collapse" href="#q-home1" role="button"
+                                        aria-expanded="false" aria-controls="collapseExample">
+                                        <p>Is my place right for Airbnb?</p>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </div>
+                                    <div class="collapse" id="q-home1">
+                                        <div class="card card-body">
+                                            Airbnb guests are interested in all kinds of places. We have listings for tiny
+                                            homes, cabins, tree houses and more. Even a spare room can be a great place to stay.
+        
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="questions-content">
+                                    <div class="collapse-btn " data-bs-toggle="collapse" href="#q-home-2" role="button"
+                                        aria-expanded="false" aria-controls="collapseExample">
+                                        <p>Do I have to host all the time?
+                                        </p>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </div>
+                                    <div class="collapse" id="q-home-2">
+                                        <div class="card card-body">
+                                            Not at all – you control your calendar. You can host once a year, a few nights a
+                                            month or more often.
+        
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="questions-content">
+                                    <div class="collapse-btn " data-bs-toggle="collapse" href="#q-home-3" role="button"
+                                        aria-expanded="false" aria-controls="collapseExample">
+                                        <p>How much should I interact with guests?
+        
+                                        </p>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </div>
+                                    <div class="collapse" id="q-home-3">
+                                        <div class="card card-body">
+                                            It’s up to you. Some Hosts prefer to message guests only at key moments – like
+                                            sending a short note when they check in – while others also enjoy meeting their
+                                            guests in person. You’ll find a style that works for you and your guests.
+        
+        
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="questions-content">
+                                    <div class="collapse-btn " data-bs-toggle="collapse" href="#q-home-4" role="button"
+                                        aria-expanded="false" aria-controls="collapseExample">
+                                        <p>Any tips on being a great Airbnb Host?
+        
+        
+                                        </p>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </div>
+                                    <div class="collapse" id="q-home-4">
+                                        <div class="card card-body">
+                                            Getting the basics down goes a long way. Keep your place clean, respond to guests
+                                            promptly and provide necessary amenities like fresh towels. Some Hosts like adding a
+                                            personal touch such as putting out fresh flowers or sharing a list of local places
+                                            to explore – but it’s not required.
+                                            <a href="#">Read on for more hosting tips
+                                            </a>
+        
+        
+        
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="questions-content">
+                                    <div class="collapse-btn " data-bs-toggle="collapse" href="#q-home-5" role="button"
+                                        aria-expanded="false" aria-controls="collapseExample">
+                                        <p>What are Airbnb’s fees?
+        
+        
+        
+                                        </p>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </div>
+                                    <div class="collapse" id="q-home-5">
+                                        <div class="card card-body">
+                                            Airbnb typically collects a flat service fee of 3% of the reservation subtotal when
+                                            you get paid. We also collect a fee from guests when they book. In many areas Airbnb
+                                            also collects and pays sales and tourism taxes automatically on your behalf.
+        
+                                            <a href="#">Learn more about fees
+        
+                                            </a>
+        
+        
+        
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="still-home row container mx-auto">
+                        <div class="col-xl-6 col-lg-6 col-md-6 still-home-column">
+                            <img src="https://a0.muscache.com/im/pictures/c19751e5-cd4f-41d0-898f-2580b60cae08.jpg?im_w=1200&im_q=highq"
+                                alt="">
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 still-hom">
+                            <h3>Still have questions?
+                            </h3>
+                            <p>Get answers from an experienced Superhost near you.
+                            </p>
+                            <button>Match with a super host</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-content-help">
+                <div class="footer-item-help row">
+                    <ul class="col-lg-4 col-md-4">
+                        <li><a href="#" class="footer-header">Support
+                            </a></li>
+                        <li><a href="#">Help Centre
+                            </a></li>
+                        <li><a href="#">AirCover
+                            </a></li>
+                        <li><a href="#">Anti-discrimination
+                            </a></li>
+                        <li><a href="#">Disability support
+                            </a></li>
+                        <li><a href="#">Cancellation options
+                            </a></li>
+                        <li><a href="#">Report neighbourhood concern
+                            </a></li>
+                    </ul>
+                    <ul class="col-lg-4 col-md-4">
+                        <li><a href="#" class="footer-header">Hosting
+                            </a></li>
+                        <li><a href="#">Airbnb your home
+                            </a></li>
+                        <li><a href="#">AirCover for Hosts
+                            </a></li>
+                        <li><a href="#">Hosting resources
+                            </a></li>
+                        <li><a href="#">Community forum
+                            </a></li>
+                        <li><a href="#">Hosting responsibly
+                            </a></li>
+                        <li><a href="#">Join a free Hosting class
+                            </a></li>
+                    </ul>
+                    <ul class="col-lg-4 col-md-4">
+                        <li><a href="#" class="footer-header">Airbnb
+                            </a></li>
+                        <li><a href="#">Newsroom
+                            </a></li>
+                        <li><a href="#">New features
+                            </a></li>
+                        <li><a href="#">Careers
+                            </a></li>
+                        <li><a href="#">Investors
+                            </a></li>
+                        <li><a href="#">Airbnb.org emergency stays
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="footer-bottom-content row">
+                    <hr>
+                    <div class="col-xl-6 col-lg-12 footer-left-help">
+                        <p>&copy; 2024 Airbnb, Inc.</p>
+                        <p><a href="#">Privacy</a></p>
+                        <p><a href="#">Terms</a></p>
+                        <p><a href="#">Sitemap</a></p>
+                        <p><a href="#">Company-details</a></p>
+                    </div>
+                    <div class="col-xl-6 col-lg-12 footer-right-help">
+                        <button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+                                style="display:block;height:16px;width:16px;fill:currentColor" aria-hidden="true"
+                                role="presentation" focusable="false">
+                                <path
+                                    d="M8 .25a7.77 7.77 0 0 1 7.75 7.78 7.75 7.75 0 0 1-7.52 7.72h-.25A7.75 7.75 0 0 1 .25 8.24v-.25A7.75 7.75 0 0 1 8 .25zm1.95 8.5h-3.9c.15 2.9 1.17 5.34 1.88 5.5H8c.68 0 1.72-2.37 1.93-5.23zm4.26 0h-2.76c-.09 1.96-.53 3.78-1.18 5.08A6.26 6.26 0 0 0 14.17 9zm-9.67 0H1.8a6.26 6.26 0 0 0 3.94 5.08 12.59 12.59 0 0 1-1.16-4.7l-.03-.38zm1.2-6.58-.12.05a6.26 6.26 0 0 0-3.83 5.03h2.75c.09-1.83.48-3.54 1.06-4.81zm2.25-.42c-.7 0-1.78 2.51-1.94 5.5h3.9c-.15-2.9-1.18-5.34-1.89-5.5h-.07zm2.28.43.03.05a12.95 12.95 0 0 1 1.15 5.02h2.75a6.28 6.28 0 0 0-3.93-5.07z">
+                                </path>
+                            </svg> English(IN)</button>
+                        <button>
+                            ₹ INR
+                        </button>
+                        <div class="social-footer">
+                            <ul>
+                                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                                            style="display:block;height:16px;width:16px;fill:currentColor"
+                                            aria-label="Navigate to Facebook" role="img" focusable="false">
+                                            <path
+                                                d="M30 0a2 2 0 0 1 2 2v28a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z">
+                                            </path>
+                                            <path fill="#fff"
+                                                d="M22.94 16H18.5v-3c0-1.27.62-2.5 2.6-2.5h2.02V6.56s-1.83-.31-3.58-.31c-3.65 0-6.04 2.21-6.04 6.22V16H9.44v4.62h4.06V32h5V20.62h3.73z">
+                                            </path>
+                                        </svg></a></li>
+                                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                                            style="display:block;height:16px;width:16px;fill:currentColor"
+                                            aria-label="Navigate to Twitter" role="img" focusable="false">
+                                            <path
+                                                d="M32 4v24a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4h24a4 4 0 0 1 4 4z">
+                                            </path>
+                                            <path fill="#fff"
+                                                d="M18.66 7.99a4.5 4.5 0 0 0-2.28 4.88A12.31 12.31 0 0 1 7.3 8.25a4.25 4.25 0 0 0 1.38 5.88c-.69 0-1.38-.13-2-.44a4.54 4.54 0 0 0 3.5 4.31 4.3 4.3 0 0 1-2 .06 4.64 4.64 0 0 0 4.19 3.13A8.33 8.33 0 0 1 5.8 23a12.44 12.44 0 0 0 19.32-11.19A7.72 7.72 0 0 0 27.3 9.5a8.3 8.3 0 0 1-2.5.75 4.7 4.7 0 0 0 2-2.5c-.87.5-1.81.87-2.81 1.06a4.5 4.5 0 0 0-5.34-.83z">
+                                            </path>
+                                        </svg></a></li>
+                                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                                            style="display:block;height:16px;width:16px;fill:currentColor"
+                                            aria-label="Navigate to Instagram" role="img" focusable="false">
+                                            <path
+                                                d="M30 0H2a2 2 0 0 0-2 2v28c0 1.1.9 2 2 2h28a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z">
+                                            </path>
+                                            <path fill="#fff"
+                                                d="M15.71 4h1.25c2.4 0 2.85.02 3.99.07 1.28.06 2.15.26 2.91.56.79.3 1.46.72 2.13 1.38.6.6 1.08 1.33 1.38 2.13l.02.06c.28.74.48 1.58.54 2.8l.01.4c.05 1.02.06 1.63.06 4.4v.92c0 2.6-.02 3.05-.07 4.23a8.78 8.78 0 0 1-.56 2.91c-.3.8-.77 1.53-1.38 2.13a5.88 5.88 0 0 1-2.13 1.38l-.06.02c-.74.28-1.59.48-2.8.53l-.4.02c-1.02.05-1.63.06-4.4.06h-.92a73.1 73.1 0 0 1-4.23-.07 8.78 8.78 0 0 1-2.91-.56c-.8-.3-1.53-.77-2.13-1.38a5.88 5.88 0 0 1-1.38-2.13l-.02-.06a8.84 8.84 0 0 1-.54-2.8l-.01-.37A84.75 84.75 0 0 1 4 16.29v-1c0-2.62.02-3.06.07-4.24.06-1.26.26-2.13.55-2.88l.01-.03c.3-.8.77-1.53 1.38-2.13a5.88 5.88 0 0 1 2.13-1.38l.06-.02a8.84 8.84 0 0 1 2.8-.54l.37-.01C12.39 4 12.99 4 15.71 4zm.91 2.16h-1.24c-2.3 0-2.91.01-3.81.05l-.42.02c-1.17.05-1.8.25-2.23.41-.56.22-.96.48-1.38.9-.4.41-.67.8-.88 1.35l-.03.06a6.7 6.7 0 0 0-.4 2.2l-.02.45c-.04.9-.05 1.53-.05 3.94v1.08c0 2.64.02 3.05.07 4.23v.07c.06 1.13.25 1.74.42 2.16.21.56.47.96.9 1.38.4.4.8.67 1.34.88l.06.03a6.7 6.7 0 0 0 2.2.4l.45.02c.9.04 1.53.05 3.94.05h1.08c2.64 0 3.05-.02 4.23-.07h.07a6.51 6.51 0 0 0 2.16-.42c.52-.19.99-.5 1.38-.9.4-.4.67-.8.88-1.34l.03-.06a6.7 6.7 0 0 0 .4-2.2l.02-.45c.04-.9.05-1.53.05-3.94v-1.09c0-2.63-.02-3.04-.07-4.22v-.07a6.51 6.51 0 0 0-.42-2.16c-.19-.52-.5-.99-.9-1.38a3.7 3.7 0 0 0-1.34-.88l-.06-.03a6.63 6.63 0 0 0-2.16-.4l-.46-.02c-.9-.04-1.5-.05-3.8-.05zM16 9.84a6.16 6.16 0 1 1 0 12.32 6.16 6.16 0 0 1 0-12.32zM16 12a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm6.4-3.85a1.44 1.44 0 1 1 0 2.88 1.44 1.44 0 0 1 0-2.88z">
+                                            </path>
+                                        </svg></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+
+    </footer>
+    <!-- footer ending  -->
+    <div class="airbnb-setup">
+        <button><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.0639 7.63177V11.1393H7.51713V13.028H11.0639V16.5356H13.0048V13.028H16.5516V11.1393H13.0048V7.63177H11.0639Z" fill="white"></path><path d="M13.734 0.684168C13.2611 0.240904 12.6404 0 12 0C11.3596 0 10.7389 0.240904 10.266 0.674532L0 10.7251L1.36946 12.0549L2.10837 11.3321V19.9661C2.10837 20.4094 2.29557 20.8334 2.61084 21.1418C2.92611 21.4501 3.35961 21.6332 3.81281 21.6332H20.1773C20.6305 21.6332 21.064 21.4598 21.3892 21.1418C21.7143 20.8238 21.8916 20.3998 21.8916 19.9565V11.3032L22.6305 12.0259L24 10.7251L13.734 0.684168ZM4.03941 19.7542V9.4049L11.6355 1.97542C11.6847 1.92723 11.734 1.88869 11.803 1.86942C11.8621 1.84051 11.931 1.83087 12 1.83087H12.0099C12.0788 1.83087 12.1478 1.84051 12.2069 1.86942C12.266 1.89833 12.3251 1.92723 12.3744 1.97542L19.9704 9.4049V19.7542H4.03941Z" fill="white"></path></svg>
+        Airbnb Setup
+        </button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
