@@ -1,12 +1,11 @@
 
-
 var range = $('.input-range'),
   value = $('.range-value');
   var cont=$(".rangecounter")
 value.html(range.attr('value'));
 range.on('input', function() {
   value.html(this.value);
-  cont.html(this.value*3666)
+  cont.html(this.value*3739)
 });
 
 let count = document.querySelectorAll(".rangecounter")
@@ -15,7 +14,7 @@ let arr = Array.from(count)
 
 
 arr.map(function(item){
-  let startnumber = 25600
+  let startnumber = 26165
 
   function counterup(){
   startnumber++

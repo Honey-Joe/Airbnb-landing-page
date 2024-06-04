@@ -18,6 +18,19 @@
   font-family: light;
   src: url(./assets/fonts/CircularStd-Light.otf);
 }
+hr{
+  
+  border: 1px solid #DDDDDD;
+}
+img{
+  object-fit: cover;
+}
+body{
+  overflow-x: hidden;
+}
+p{
+  margin: 0 !important;
+}
 * {
   margin: 0;
   padding: 0;
@@ -140,6 +153,7 @@ ul li {
   color: #6a6a6a;
   font-weight: 400;
 }
+
 .modal-header {
   display: flex !important;
   justify-content: start !important;
@@ -153,14 +167,14 @@ ul li {
   font-size: 11px;
 }
 .top-content form input {
-  all: unset;
+  height: 55px !important;
   border: 1px solid #b0b0b0;
-  width: 100%;
+  width: 104% !important;
   border-top: none;
+  border-radius: none ;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
   padding-top: 15px !important;
-  height: 100% !important;
 }
 .top-content form .form-floating .phn {
   font-size: 15px !important;
@@ -683,7 +697,7 @@ ul li {
 }
 .login_container_help {
   display: flex;
-  padding: 20px 30px 10px 30px;
+  padding: 20px 30px 25px 30px;
   justify-content: space-between;
   align-items: center;
   border: 1px solid #dddddd;
@@ -745,6 +759,9 @@ ul li {
   font-family: book;
   font-size: 18px;
 }
+.img_container a p{
+  line-height: 20px;
+}
 /* navigation tab ending  */
 /* articles starting  */
 .articles_help {
@@ -763,6 +780,7 @@ ul li {
   text-decoration: underline;
   font-family: medium;
   font-size: 18px;
+  margin: 0 !important;
 }
 .article-content a p {
   color: #6a6a6a;
@@ -772,6 +790,7 @@ ul li {
   text-overflow: ellipsis;
   overflow: hidden;
   height: 50px;
+
 }
 .art-cont {
   margin-top: 20px !important;
@@ -800,19 +819,25 @@ ul li {
 }
 .card-body-help {
   flex-direction: column !important;
-  padding: 10px !important;
+  padding: 10px 10px 20px 10px !important;
 }
 .card-body-help h6 {
   color: white;
   margin: 0 !important;
   font-family: book;
-  font-size: 16px;
+  font-size: 15px;
 }
 .card-body-help p {
   color: white;
   margin: 0 !important;
   font-family: light;
-  font-size: 13px;
+  font-size: 14px;
+}
+.explore-cont{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: start;
 }
 .explore-cont h4 {
   color: white;
@@ -827,8 +852,11 @@ ul li {
   background-color: white;
   border: none;
   border-radius: 5px;
-  padding: 10px 100px;
+  padding: 10px 105px;
   font-family: book;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
 }
 .feed-exp {
   margin-top: 20px;
@@ -1088,6 +1116,7 @@ input[type='range']::-webkit-slider-thumb{
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 10px;
 }
 .aircover-home img{
   width: 15%;
@@ -1107,7 +1136,8 @@ input[type='range']::-webkit-slider-thumb{
   justify-content: end;
   align-items: end;
   gap: 100px;
-  margin-top: 30px !important;
+  margin-top: 25px !important;
+  margin-bottom: 20px;
   
 }
 .row2-air{
@@ -1139,9 +1169,7 @@ input[type='range']::-webkit-slider-thumb{
   font-size: 16px;
   color: #6a6a6a;
 }
-.row1-aircover-home{
-  margin-bottom: -20px;
-}
+
 .dis-home{
   font-family: light;
   color: #6a6a6a;
@@ -1187,6 +1215,10 @@ input[type='range']::-webkit-slider-thumb{
   font-size: 38px;
   line-height: 10px;
 }
+.questions-content{
+  padding-bottom: 20px;
+  background-color: #f7f7f7;
+}
 .questions-content .collapse-btn p{
   font-size: 20px;
   font-family: light;
@@ -1206,6 +1238,7 @@ input[type='range']::-webkit-slider-thumb{
 .still-home{
   background-color: white;
   border-radius: 12px;
+  margin-top: 70px !important;
 }
 .still-home-column img{
   width: 100%;
@@ -1215,12 +1248,14 @@ input[type='range']::-webkit-slider-thumb{
   flex-direction: column;
   justify-content: center;
   align-items: start;
+  gap: 15px;
 }
 .still-hom h3{
   font-family: medium;
   font-size: 40px;
+  margin: 0 !important;
 }
-.still-hom p{
+.still-hom span{
   font-family: book;
   font-size: 17px;
 }
@@ -1229,9 +1264,9 @@ input[type='range']::-webkit-slider-thumb{
   color: #222222;
   border: 1px solid black;
   font-family: book;
-  padding: 10px 14px;
-  border-radius: 10px;
-  font-size: 12px;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 14px;
 }
 .footer-main-home .footer-content-help .footer-item-help{
   padding: 30px 100px 20px 100px;
@@ -1371,6 +1406,9 @@ input[type='range']::-webkit-slider-thumb{
   .banner-content-home{
     padding-left: 0;
   }
+  .banner-map-home{
+    margin-left: 20px;
+  }
 }
 @media screen and (max-width: 768px) and (min-width: 426px) {
   /* .header_section starting */
@@ -1505,6 +1543,9 @@ input[type='range']::-webkit-slider-thumb{
   }
   .banner-content-home{
     padding-left: 0;
+  }
+  .banner-map-home{
+    margin-left: 20px;
   }
 }
 @media screen and (min-width: 315px) and (max-width: 426px) {
@@ -1763,7 +1804,7 @@ input[type='range']::-webkit-slider-thumb{
     padding: 10px 40px 10px 40px;
   }
   .navigation_help_content li button {
-    padding: 10px 10px !important;
+    padding: 10px 0px !important;
   }
   .login_button_pane {
     display: flex;
@@ -1805,7 +1846,9 @@ input[type='range']::-webkit-slider-thumb{
     margin: 0 !important;
     font-size: 21px;
     font-family: light;
+
   }
+  
   .img-browse {
     display: flex;
     justify-content: space-between;
@@ -1874,6 +1917,9 @@ input[type='range']::-webkit-slider-thumb{
   .navigation-butt-home{
     display: none;
   }
+  input[type='range']{
+    width: 100%;
+  }
   .banner-content-home{
     padding: 0;
     /* display: none !important; */
@@ -1932,6 +1978,9 @@ input[type='range']::-webkit-slider-thumb{
     padding: 30px;
     justify-content: start;
   }
+  .footer-main-home .footer-content-help .footer-bottom-content{
+    padding: 20px 10px 100px 10px;
+  }
   .airbnb-setup{
     background-color: white;
     width: 100%;
@@ -1952,15 +2001,23 @@ input[type='range']::-webkit-slider-thumb{
   );
   border: none;
   color: white;
-  padding: 13px 130px 13px 130px;
+  justify-content: center;
   border-radius: 8px;
+  padding: 13px 0px;
   display: flex;
   gap: 5px;
   font-family: book;
   font-size: 17px;
+  width: 100%;
   }
   .banner-content-home{
     padding-left: 0;
+  }
+  .banner-map-home{
+    margin-left: 20px;
+  }
+  section{
+    overflow-x:hidden ;
   }
 }
 
