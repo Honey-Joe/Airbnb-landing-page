@@ -836,7 +836,7 @@ ul li {
 .explore-cont{
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 2px;
   align-items: start;
 }
 .explore-cont h4 {
@@ -845,21 +845,22 @@ ul li {
 .explore-cont p {
   color: white;
   font-family: book;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 20px;
 }
 .explore-cont button {
   background-color: white;
   border: none;
   border-radius: 5px;
-  padding: 10px 105px;
+  padding: 8px 105px 9px 105px;
   font-family: book;
-  font-size: 16px;
+  font-size: 15px;
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 .feed-exp {
-  margin-top: 20px;
+  margin-top: 10px !important;
 }
 .feed-exp a {
   color: white;
